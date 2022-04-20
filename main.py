@@ -35,7 +35,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path=TOKEN)
-    updater.bot.setWebhook('https://boogram.herokuapp.com/' + TOKEN)
+    updater.bot.setWebhook('https://aqueous-waters-90262.herokuapp.com/' + TOKEN)
     
     updater.idle()
 
